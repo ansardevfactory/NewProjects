@@ -2,6 +2,7 @@ import "./style.css";
 import Menu from "./Menu.js";
 import SingleBike from "./SingleBike";
 import Header  from "./Header";
+import Footer from "./Footer";
 const App = () => {
   return (
     <>
@@ -11,10 +12,10 @@ const App = () => {
           <div class="parallax__layer parallax__layer--back">
             <div class="row2">
               {" "}
-              <img src={require("./images/banner.jpg")} />
+              <img src={require("./images/bgs/IMG_0095.jpg")} />
               <div class="innercontent">
-                <p class="mainhead">HeadOne</p>
-                <p class="shorthead">HeadTwo</p>
+                <p class="mainhead">About Us</p>
+                <p class="shorthead"></p>
               </div>
             </div>
           </div>
@@ -22,56 +23,19 @@ const App = () => {
             <div className="about_row">
                 <div className="about_row_col1">
                     <h2>About Us</h2>
-                    <p>Blitz Motorcycles is a Paris-based custom garage founded by Fred Jourden   in 2010. In the workshop are conceived customized and hand finished motorcycles to create unique, one-of-a-kind machines. Our love of old timers is no secret, so every project we undertake honours a legend while telling it's own story.</p>
+                    <p>My love for nature, travel, music, motorcycles, jeeps, art and food has inspired my journeys. I keenly observe the culture, art, cuisine, seasonal fruits and music of every new place I explore. 
+
+My passion for riding lead me to build Maverick, my first custom motorcycle and then it took the form of my bike customization, Petrolhead Customs.
+</p>
                 </div>
                 <div className="about_row_col2">
-                    <h2>Photographers</h2>
-                    <label>Valen Zhou</label><br />
-                    <label>Valen Zhou</label><br />
-                    <label>Valen Zhou</label>
+                    
                 </div>
             </div>
           </div>
         </div>
 
-        <div class="footerrow">
-          <div class="fr_col1">
-            <h4>About</h4>
-            <ul>
-              <li>
-                Blitz Motorcycles is a Paris-based custom garage that conceives,
-                customises and hand finishes motorcycles to create unique,
-                one-of-a-kind machines.
-              </li>
-              <li>
-                <p>Copyright © 2020 Blitz Motorcycles. All rights reserved.</p>
-              </li>
-            </ul>
-          </div>
-          <div class="fr_col2 col">
-            <h4>Information</h4>
-            <ul>
-              <li>About Blitz</li>
-              <li>Partners</li>
-              <li>Press</li>
-              <li>Terms & Conditions</li>
-            </ul>
-          </div>
-          <div class="fr_col3 col">
-            <h4>Social</h4>
-            <ul>
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Pinterest</li>
-            </ul>
-          </div>
-          <div class="fr_col4 col">
-            <h4>Contact</h4>
-            <ul>
-              <li>contact@blitz-motorcycles.com</li>
-            </ul>
-          </div>
-        </div>
+       <Footer />
       </div>
     </>
   );

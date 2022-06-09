@@ -1,7 +1,11 @@
-const App = () => {
+const App = ({ img, text }) => {
   return (
     <div className="singlebike">
-      <img src={require("./images/bike.jpg")} /> <label>SampleText</label>
+      <div className="singlebike_image">
+        {" "}
+        <img src={img} />{" "}
+      </div>
+      <label>{text}</label>
     </div>
   );
 };

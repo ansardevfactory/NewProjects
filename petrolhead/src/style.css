@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kdam+Thmor+Pro');
+
 body {
   margin: 0;
+  font-family: 'Kdam Thmor Pro';
   -webkit-perspective: 300px;
   perspective: 300px;
   -webkit-transition: -webkit-transform 0.1s;
@@ -28,7 +32,8 @@ body {
   list-style: none;
   padding-left: 10px;
   padding-right: 10px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family:'Kdam Thmor Pro';
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
 }
 .row1 li:hover {
   color: black;
@@ -104,14 +109,21 @@ body {
 }
 .footerrow {
   display: flex;
-  background-color: rgb(171, 217, 217);
+  background-color:#ffde00;
+  /* background-color: rgba(15, 14, 14, 0.7); */
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 20px;
+  color: black;
   padding-bottom: 50px;
   justify-content: space-between;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
+  font-size: .8rem;
+  font-family: 'Kdam Thmor Pro';
+}
+.footerrow .fr_col0 img{
+  width: 150px;
 }
 .footerrow .fr_col1 {
   width: 33%;
@@ -192,10 +204,19 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.bikelistrow iframe{ 
+}
 
+.framediv{
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-around;
+}
 .singlebike {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .singlebike img {
@@ -204,6 +225,12 @@ body {
 }
 .singlebike label {
   width: 90%;
+  
+  font-family:'Kdam Thmor Pro';
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-size: .9rem;
+  font-weight: 50;
+  margin-top: 5px;
 }
 .about_row{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -211,11 +238,12 @@ body {
     background-color: white;
     padding-top: 40px;
     height: 300px;
-    padding-bottom: 50px;
+    padding-bottom: 100px; 
     display: flex;
     justify-content: space-between;
 }
 .about_row_col1{
+  font-family:'Kdam Thmor Pro';
  width: 49%;
 }
 .about_row_col2{
@@ -225,7 +253,30 @@ body {
     color: #333;
     font-size: 1.2rem;
 }
+.contact_icon{
+  font-size: 2rem;
+  margin-right: 10px;
+}
+.contact_p_tag{
+  display: flex;
+  align-items: center;
+}
 .about_row p,.about_row label{
     color: #888;
     font-size: .8rem;
+}
+.singlebike_image { 
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+}
+.singlebike_image img{
+  width: 90%;
+  height: 100%;
+  transition: transform 0.4s;
+}
+
+.singlebike_image img:hover{
+  transform: scale(1.5);
+
 }

@@ -5,23 +5,27 @@ const App=()=>{
     <nav>
       <ul>
         <Link className="nodecoration" to="/bikes">
-          <li>Bikes</li>
+          <li>Builds</li>
         </Link>
         |
-        <Link className="nodecoration" to="/shop">
+        {/* <Link className="nodecoration" to="/shop">
           <li>Shop</li>
         </Link>
-        |
+        | */}
         <Link className="nodecoration" to="/Cinematique">
           <li>Cinematique</li>
         </Link>
-        |
+        {/* |
         <Link className="nodecoration" to="/LifeStyle">
           <li>Lifestyle</li>
-        </Link>
+        </Link> */}
         |
         <Link className="nodecoration" to="/About">
-          <li>About</li>
+          <li>About Us</li>
+        </Link>
+        |
+        <Link className="nodecoration" to="/Contact">
+          <li>Contact Us</li>
         </Link>
       </ul>
     </nav>

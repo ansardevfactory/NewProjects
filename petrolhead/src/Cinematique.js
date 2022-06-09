@@ -2,84 +2,74 @@ import "./style.css";
 import Menu from "./Menu.js";
 import SingleBike from "./SingleBike";
 import Header from "./Header";
+import Footer from "./Footer";
 const App = () => {
   return (
     <>
-     <Header />
+      <Header />
       <div class="parallax">
         <div class="parallax__group">
           <div class="parallax__layer parallax__layer--back">
             <div class="row2">
               {" "}
-              <img src={require("./images/banner.jpg")} />
+              <img src={require("./images/bgs/IMG_5663.jpg")} />
               <div class="innercontent">
-                <p class="mainhead">HeadOne</p>
-                <p class="shorthead">HeadTwo</p>
+                <p class="mainhead">Cinematique</p>
+                <p class="shorthead"></p>
               </div>
             </div>
           </div>
           <div class="parallax__layer parallax__layer--base">
             <div className="listrow">
               <div class="bikelistrow">
-                <SingleBike />
-                <SingleBike />
-                <SingleBike />
-                <SingleBike />
-              </div>{" "}
-              <div class="bikelistrow">
-                <SingleBike />
-                <SingleBike />
-                <SingleBike />
-                <SingleBike />
-              </div>{" "}
-              <div class="bikelistrow">
-                <SingleBike />
-                <SingleBike />
-                <SingleBike />
-                <SingleBike />
+                <div className="framediv">
+                <iframe
+                  src="https://player.vimeo.com/video/293897877?h=879d441bf0"
+                  width="560"
+                  height="315"
+                  frameborder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/ss7MGmJD-1g"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe></div>
               </div>
+              <div class="bikelistrow">
+                <div className="framediv">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/O-HfnM6_Al8"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/HCZSXQWSlJ4"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                </div>
+              </div>{" "}
+              <div class="bikelistrow"></div>
             </div>
           </div>
         </div>
 
-        <div class="footerrow">
-          <div class="fr_col1">
-            <h4>About</h4>
-            <ul>
-              <li>
-                Blitz Motorcycles is a Paris-based custom garage that conceives,
-                customises and hand finishes motorcycles to create unique,
-                one-of-a-kind machines.
-              </li>
-              <li>
-                <p>Copyright © 2020 Blitz Motorcycles. All rights reserved.</p>
-              </li>
-            </ul>
-          </div>
-          <div class="fr_col2 col">
-            <h4>Information</h4>
-            <ul>
-              <li>About Blitz</li>
-              <li>Partners</li>
-              <li>Press</li>
-              <li>Terms & Conditions</li>
-            </ul>
-          </div>
-          <div class="fr_col3 col">
-            <h4>Social</h4>
-            <ul>
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Pinterest</li>
-            </ul>
-          </div>
-          <div class="fr_col4 col">
-            <h4>Contact</h4>
-            <ul>
-              <li>contact@blitz-motorcycles.com</li>
-            </ul>
-          </div>
-        </div>
+      <Footer />
       </div>
     </>
   );

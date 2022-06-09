@@ -4,7 +4,8 @@ import Bikes from "./Bikes";
 import Shop from "./Shop";
 import Cinematique from "./Cinematique";
 import LifeStyle from "./LifeStyle";
-import About from "./About";
+import About from "./About"; 
+import Contact from "./Contact";
 
 const Navigation = () => {
   return (
@@ -16,6 +17,7 @@ const Navigation = () => {
         <Route path="/Cinematique" element={<Cinematique />}></Route>
         <Route path="/LifeStyle" element={<LifeStyle />}></Route>
         <Route path="/About" element={<About />}></Route>
+        <Route path="/Contact" element={<Contact />}></Route>
       </Routes>
     </BrowserRouter>
   );

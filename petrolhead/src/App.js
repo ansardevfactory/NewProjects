@@ -1,5 +1,6 @@
 import "./style.css";
 import Menu from "./Menu.js"
+import Footer from './Footer'
 const App = () => {
   return (
     <>
@@ -15,8 +16,8 @@ const App = () => {
           Your browser does not support HTML video.
         </video>
         <div class="innercontent">
-          <p class="mainhead">HeadOne</p>
-          <p class="shorthead">HeadTwo</p>
+          <p class="mainhead">Tatvamasi</p>
+          <p class="shorthead">A film by Vinil Varghese</p>
         </div>
       </div>
       <div class="row3">
@@ -26,52 +27,15 @@ const App = () => {
         <div class="row3_col2">
           <div class="row3_col2_row1">
             {" "}
-            <img src={require("./images/right.jpg")} />
+            <img src={require("./images/bgs/IMG_1609.jpg")} />
           </div>
           <div class="row3_col2_row2">
             {" "}
-            <img src={require("./images/right.jpg")} />
+            <img src={require("./images/bgs/IMG_1653.jpg")} />
           </div>
         </div>
       </div>
-      <div class="footerrow">
-        <div class="fr_col1">
-          <h4>About</h4>
-          <ul>
-            <li>
-              Blitz Motorcycles is a Paris-based custom garage that conceives,
-              customises and hand finishes motorcycles to create unique,
-              one-of-a-kind machines.
-            </li>
-            <li>
-              <p>Copyright © 2020 Blitz Motorcycles. All rights reserved.</p>
-            </li>
-          </ul>
-        </div>
-        <div class="fr_col2 col">
-          <h4>Information</h4>
-          <ul>
-            <li>About Blitz</li>
-            <li>Partners</li>
-            <li>Press</li>
-            <li>Terms & Conditions</li>
-          </ul>
-        </div>
-        <div class="fr_col3 col">
-          <h4>Social</h4>
-          <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Pinterest</li>
-          </ul>
-        </div>
-        <div class="fr_col4 col">
-          <h4>Contact</h4>
-          <ul>
-            <li>contact@blitz-motorcycles.com</li>
-          </ul>
-        </div>
-      </div>
+     <Footer />
     </>
   );
 };
