@@ -1,35 +1,22 @@
 {
   "files": {
-    "main.css": "/PetrolHeadCustoms/static/css/main.09f61958.css",
-    "main.js": "/PetrolHeadCustoms/static/js/main.ed146216.js",
-    "static/media/video.mp4": "/PetrolHeadCustoms/static/media/video.ec15376e0bdfafadc468.mp4",
-    "static/media/IMG_1609.jpg": "/PetrolHeadCustoms/static/media/IMG_1609.1322ca88427c52736acb.jpg",
-    "static/media/Logo Yellow.jpg": "/PetrolHeadCustoms/static/media/Logo Yellow.4b4e3138f5ee5dfd076d.jpg",
-    "static/media/IMG_5871.jpg": "/PetrolHeadCustoms/static/media/IMG_5871.379f67d04af1ea003c88.jpg",
-    "static/media/IMG_5663.jpg": "/PetrolHeadCustoms/static/media/IMG_5663.5c36d822659dee2fca1e.jpg",
-    "static/media/IMG_0095.jpg": "/PetrolHeadCustoms/static/media/IMG_0095.ebcb1e503b1f7f7ec90c.jpg",
-    "static/media/IMG_1653.jpg": "/PetrolHeadCustoms/static/media/IMG_1653.20dd1d9de8e28d1d86f2.jpg",
-    "static/media/banner.jpg": "/PetrolHeadCustoms/static/media/banner.513c3ea17f5f601b239c.jpg",
-    "static/media/left.jpg": "/PetrolHeadCustoms/static/media/left.81694e0d21b3e3783e80.jpg",
-    "static/media/Maverick1.jpg": "/PetrolHeadCustoms/static/media/Maverick1.036f072ffff469afc7a7.jpg",
-    "static/media/Scram.jpg": "/PetrolHeadCustoms/static/media/Scram.e8378848ebb4add1b3e8.jpg",
-    "static/media/KB135.jpg": "/PetrolHeadCustoms/static/media/KB135.6ab34be5bbb1e9a947d9.jpg",
-    "static/media/Bull1.jpg": "/PetrolHeadCustoms/static/media/Bull1.7969588da11b89e3015d.jpg",
-    "static/media/Roadking.jpg": "/PetrolHeadCustoms/static/media/Roadking.9ab5d36d9e9b0a52b609.jpg",
-    "static/media/Wildcat-1.jpg": "/PetrolHeadCustoms/static/media/Wildcat-1.2d89775a2e58e9561248.jpg",
-    "static/media/RD350.jpg": "/PetrolHeadCustoms/static/media/RD350.d954d55fec2b14bf4103.jpg",
-    "static/media/Suvega.jpg": "/PetrolHeadCustoms/static/media/Suvega.b8b6e16f755b125b9644.jpg",
-    "static/media/Black Panther.jpg": "/PetrolHeadCustoms/static/media/Black Panther.852387bc40c049f2266f.jpg",
-    "static/media/PBB-1.jpg": "/PetrolHeadCustoms/static/media/PBB-1.8b3b7a247be135af10cc.jpg",
-    "static/media/Tiger.jpg": "/PetrolHeadCustoms/static/media/Tiger.f69a3597ab8927d90983.jpg",
-    "static/media/MiG07-2.jpg": "/PetrolHeadCustoms/static/media/MiG07-2.97f65100512c02f7e3ba.jpg",
-    "static/media/logo.jpg": "/PetrolHeadCustoms/static/media/logo.8a7856f0cafb30800f85.jpg",
-    "index.html": "/PetrolHeadCustoms/index.html",
-    "main.09f61958.css.map": "/PetrolHeadCustoms/static/css/main.09f61958.css.map",
-    "main.ed146216.js.map": "/PetrolHeadCustoms/static/js/main.ed146216.js.map"
+    "main.css": "/matrimony/static/css/main.b862e885.css",
+    "main.js": "/matrimony/static/js/main.3439ba07.js",
+    "static/media/home_christian_bg.webp": "/matrimony/static/media/home_christian_bg.36d00f390226b1cf4e0e.webp",
+    "static/media/userpic.png": "/matrimony/static/media/userpic.41bd0742ee4d41278dcf.png",
+    "static/media/ring_icon.webp": "/matrimony/static/media/ring_icon.be9d20ddb5e1f0841200.webp",
+    "static/media/trustedhome_icon.webp": "/matrimony/static/media/trustedhome_icon.4f9efcdd832bbae07957.webp",
+    "static/media/logo_icon.svg": "/matrimony/static/media/logo_icon.4d890d5d8542383ca72ebf1e7604d1d5.svg",
+    "static/media/location_icon.webp": "/matrimony/static/media/location_icon.bc6e714ca01e573539f2.webp",
+    "static/media/genuinehome_icon.webp": "/matrimony/static/media/genuinehome_icon.0cf7b5a30055099ea030.webp",
+    "static/media/trusted_newicon.webp": "/matrimony/static/media/trusted_newicon.d4531e1832f66c2e3ea4.webp",
+    "static/media/denominationshome_icon.webp": "/matrimony/static/media/denominationshome_icon.108a508199fed8f53f38.webp",
+    "index.html": "/matrimony/index.html",
+    "main.b862e885.css.map": "/matrimony/static/css/main.b862e885.css.map",
+    "main.3439ba07.js.map": "/matrimony/static/js/main.3439ba07.js.map"
   },
   "entrypoints": [
-    "static/css/main.09f61958.css",
-    "static/js/main.ed146216.js"
+    "static/css/main.b862e885.css",
+    "static/js/main.3439ba07.js"
   ]
 }
