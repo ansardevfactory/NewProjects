@@ -2,7 +2,9 @@ import "./style.css";
 import Menu from "./Menu.js";
 import SingleBike from "./SingleBike";
 import Header from "./Header";
-import Footer from './Footer'
+import Footer from "./Footer";
+import { Suspense, useEffect, useState } from "react";
+import Spinner from "./Spinner"; 
 const App = () => {
   return (
     <>
@@ -15,6 +17,7 @@ const App = () => {
               <img src={require("./images/banner.jpg")} />
               <div class="innercontent">
                 <p class="mainhead">Builds</p>
+
                 <p class="shorthead"></p>
               </div>
             </div>
@@ -40,7 +43,7 @@ const App = () => {
                 />
               </div>{" "}
               <div class="bikelistrow">
-              <SingleBike
+                <SingleBike
                   img={require("./images/Photos/MiG07/MiG07-2.jpg")}
                   text={"MiG07"}
                 />
@@ -58,7 +61,7 @@ const App = () => {
                 />
               </div>{" "}
               <div class="bikelistrow">
-              <SingleBike
+                <SingleBike
                   img={require("./images/Photos/Scram/Scram.jpg")}
                   text={"Scram"}
                 />
@@ -79,9 +82,45 @@ const App = () => {
           </div>
         </div>
 
-       <Footer />
+        <Footer />
       </div>
     </>
   );
 };
-export default App;
+
+const Main = () => {
+  const [show, setShowLoader] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setShowLoader(false);
+    }, 0 );
+  }, []);
+
+  const Loader = ({ showprop }) => {
+    if (showprop)
+      return (
+        <div
+          style={{
+            zIndex: "10",
+            position: "fixed",
+            alignItems: "center",
+            justifyContent: "center",
+            display: "flex",
+            backgroundColor: "rgb(0,0,0,.6)",
+            width: "100%",
+            height: "100%",
+          }}
+        >
+          <Spinner />
+        </div>
+      );
+    else return <></>;
+  };
+  return (
+    <Suspense fallback={<h1>Loading</h1>}>
+      <Loader showprop={show} />
+      <App />
+    </Suspense>
+  );
+};
+export default Main;

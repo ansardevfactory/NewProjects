@@ -207,7 +207,9 @@ const App = ({ttk}) => {
         </div>
         <div className="row4_col2">
           <div className="row4_col2_row1">
-            <div className="row4_col2_row1_col1"></div>
+            <div className="row4_col2_row1_col1">
+              <img src={require("./images/banner.png")} />
+            </div>
             <div className="row4_col2_row1_col2">
               <h2>Cahill's spectacular overhead kick</h2>
               <label>
