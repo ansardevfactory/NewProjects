@@ -1,33 +1,24 @@
 {
   "files": {
-    "main.css": "/epl/static/css/main.c273001c.css",
-    "main.js": "/epl/static/js/main.5699bc84.js",
-    "static/js/787.fed454e7.chunk.js": "/epl/static/js/787.fed454e7.chunk.js",
-    "static/media/banner.png": "/epl/static/media/banner.563b61dbbfe093946b9e.png",
-    "static/media/t14@x2.png": "/epl/static/media/t14@x2.04bd93a98603abe9507c.png",
-    "static/media/t13@x2.png": "/epl/static/media/t13@x2.22a9b9b0c1a0ffba2367.png",
-    "static/media/t4@x2.png": "/epl/static/media/t4@x2.1c734df810954375d2a2.png",
-    "static/media/t8@x2.png": "/epl/static/media/t8@x2.feb36840f5e2f1595a59.png",
-    "static/media/t43@x2.png": "/epl/static/media/t43@x2.70b4bf5ee121dd6cc722.png",
-    "static/media/t11@x2.png": "/epl/static/media/t11@x2.200ada3352ac2115a3dc.png",
-    "static/media/t1@x2.png": "/epl/static/media/t1@x2.d4cdfb810f90650a7c5b.png",
-    "static/media/t20@x2.png": "/epl/static/media/t20@x2.b41010851e5a7ebb61ed.png",
-    "static/media/t94@x2.png": "/epl/static/media/t94@x2.04594529c828a2352da2.png",
-    "static/media/t90@x2.png": "/epl/static/media/t90@x2.ef51a35e98b0fe3e41c5.png",
-    "static/media/t31@x2.png": "/epl/static/media/t31@x2.686abd33161923974e6c.png",
-    "static/media/t45@x2.png": "/epl/static/media/t45@x2.ea132e17f398ec6c9d25.png",
-    "static/media/t21@x2.png": "/epl/static/media/t21@x2.5fc27849e506c0713314.png",
-    "static/media/t36@x2.png": "/epl/static/media/t36@x2.d7f66b9b1e9bf98df027.png",
-    "static/media/t2@x2.png": "/epl/static/media/t2@x2.19326e3373699b9a6115.png",
-    "static/media/t7@x2.png": "/epl/static/media/t7@x2.10ad081c87eda0dbc127.png",
-    "static/media/logo.svg": "/epl/static/media/logo.6ce24c58023cc2f8fd88.svg",
-    "index.html": "/epl/index.html",
-    "main.c273001c.css.map": "/epl/static/css/main.c273001c.css.map",
-    "main.5699bc84.js.map": "/epl/static/js/main.5699bc84.js.map",
-    "787.fed454e7.chunk.js.map": "/epl/static/js/787.fed454e7.chunk.js.map"
+    "main.css": "/matrimony/static/css/main.6b02f5fd.css",
+    "main.js": "/matrimony/static/js/main.9d7443db.js",
+    "static/media/home_christian_bg.webp": "/matrimony/static/media/home_christian_bg.36d00f390226b1cf4e0e.webp",
+    "static/media/userpic.png": "/matrimony/static/media/userpic.41bd0742ee4d41278dcf.png",
+    "static/media/header-inner1.jpg": "/matrimony/static/media/header-inner1.c7b09e414412e66a8efd.jpg",
+    "static/media/profilepic.webp": "/matrimony/static/media/profilepic.d9776fdd13b4793fe47e.webp",
+    "static/media/ring_icon.webp": "/matrimony/static/media/ring_icon.be9d20ddb5e1f0841200.webp",
+    "static/media/trustedhome_icon.webp": "/matrimony/static/media/trustedhome_icon.4f9efcdd832bbae07957.webp",
+    "static/media/logo_icon.svg": "/matrimony/static/media/logo_icon.4d890d5d8542383ca72ebf1e7604d1d5.svg",
+    "static/media/location_icon.webp": "/matrimony/static/media/location_icon.bc6e714ca01e573539f2.webp",
+    "static/media/genuinehome_icon.webp": "/matrimony/static/media/genuinehome_icon.0cf7b5a30055099ea030.webp",
+    "static/media/trusted_newicon.webp": "/matrimony/static/media/trusted_newicon.d4531e1832f66c2e3ea4.webp",
+    "static/media/denominationshome_icon.webp": "/matrimony/static/media/denominationshome_icon.108a508199fed8f53f38.webp",
+    "index.html": "/matrimony/index.html",
+    "main.6b02f5fd.css.map": "/matrimony/static/css/main.6b02f5fd.css.map",
+    "main.9d7443db.js.map": "/matrimony/static/js/main.9d7443db.js.map"
   },
   "entrypoints": [
-    "static/css/main.c273001c.css",
-    "static/js/main.5699bc84.js"
+    "static/css/main.6b02f5fd.css",
+    "static/js/main.9d7443db.js"
   ]
 }
